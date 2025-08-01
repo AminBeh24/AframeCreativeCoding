@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>A-Frame Environment</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.5.x/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity environment="preset: egypt"></a-entity>
+
+      <a-text value="Great Pyramid of Khufu" color="black" position="18 1.4 -12" scale="2 2 2" look-at="[camera]" rotation="-10 -81 0"></a-text>
+        <a-text value="Pyramid of Khafre" color="black" position="-5.54557 1.81086 35.36633" scale="2 2 2" look-at="[camera]" rotation="-15.18 160.32 0"></a-text>
+        <a-text value="Pyramid of Menkaure" color="black" position="-63.58026 1.81086 -2.3205" scale="2 2 2" look-at="[camera]" rotation="-15.18 100 0"></a-text>
+        <a-text value="Red Pyramid (of Sneferu)" color="black" position="-79.20167 3.08373 -27.56212" scale="2 2 2" look-at="[camera]" rotation="-15.18 69.1 0"></a-text>
+        <a-text value="Bent Pyramid (also Sneferu)" color="black" position="22.67711 2.82292 -92.72853" scale="2 2 2" look-at="[camera]" rotation="-14.849999999999998 -49.05 0"></a-text>
+        <a-text value="Pyramid of Queen Hetepheres I" color="black" position="43.41839 1.81086 57.98342" scale="2 2 2" look-at="[camera]" rotation="-14.380000000000003 207.94 0"></a-text>
+        <a-text value="Pyramid of Queen Khentkaus I" color="black" position="-44.66026 0.90963 -19.33596" scale="2 2 2" look-at="[camera]" rotation="-15.18 39.3 0"></a-text>
+        <a-text value="Pyramid of Queen Neith" color="black" position="-43.52818 1.81086 -52.70171" scale="2 2 2" look-at="[camera]" rotation="-15.18 -20.14 0"></a-text>
+        <a-text value="Pyramid of Pepi II" color="black" position="77.97784 1.81086 -21.474" scale="2 2 2" look-at="[camera]" rotation="-15.18 -23.02 0"></a-text>
+        <a-text value="Pyramid of Teti" color="black" position="62.99141 2.59028 9.99468" scale="2 2 2" look-at="[camera]" rotation="-15.18 280 0"></a-text>
+        
+        <a-assets>
+            <audio src="assets/Ancient Egyptian Music – Pharaoh Ramses II.mp3" autoplay preload volume="0.1"></audio>
+        </a-assets>//
+        </a-scene>
+  </body>
+</html>
